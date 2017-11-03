@@ -7,10 +7,10 @@
 
 
 body {
-	margin:0 auto;
+
 	background-color: #EEEEEE;
 	font-family: 'PT Sans', sans-serif;
-	margin-left: 30px;
+
 
 
 }
@@ -20,6 +20,7 @@ body {
 nav {
 
   height: 120px;
+  /*margin-left: 100px;*/
 }
 
 nav >  a {
@@ -29,7 +30,7 @@ nav >  a {
   text-decoration: none;
   color: #5D5352;
   top: 50px;
-  left: 85px;
+  left: 130px;
   font-family: 'Satisfy', cursive;
   font-size: 25px;
 
@@ -40,7 +41,7 @@ nav >  a {
 
  position: absolute;
  top: 57px;
- left: 60px;
+ left: 100px;
  color: #F0A2AF;
 
 
@@ -49,10 +50,9 @@ nav >  a {
 nav ul {
 
 	position: absolute;
-	margin-left: 850px;
-  top: 40px;
+  top: 55px;
 	right: 0px;
-	left: 0px;
+	left: 950px;
   width: 468px;
 
 }
@@ -75,11 +75,11 @@ hr {
 
 	position: relative;
   top: 100px;
+  left: 95px;
   border-top-width: 2px;
   margin-right: 0px;
   margin-left: 0px;
   width: 1200px;
-
 }
 
 /* middle section */
@@ -89,6 +89,7 @@ section {
   height: 470px;
 	margin-bottom:10px;
   padding-top:20px;
+  text-align: center;
 
 }
 
@@ -142,15 +143,12 @@ h2 > p {
    grid-column-gap: 100px;
    width: 900px;
    margin: 0 auto;
-   
-
-
 }
 
 
 .part2{
 
-    margin-right: 150px;
+    margin-right: 130px;
 
 }
 
@@ -160,6 +158,7 @@ h2 > p {
 #pictures {
 
 	margin-top: 20px;
+  text-align: center;
 
 }
 
@@ -168,7 +167,6 @@ h2 > p {
    display: grid;
    grid-template-columns: repeat(5, 20%);
    grid-template-rows: repeat(2, 50%);
-   grid-gap: 1px;
    grid-row-gap: 40px;
    grid-column-gap: 20px;
    margin: 0 auto;
@@ -180,10 +178,9 @@ h2 > p {
 
   margin-top: 5px;
   border-radius: 10px;
-  
   width: 180px;
   height: 180px;
- 
+
 }
 
 
@@ -209,7 +206,7 @@ h2 > p {
  #pictures a {
 
   text-decoration: none;
- 
+
 }
 
 
@@ -223,7 +220,9 @@ h2 > p {
   padding-bottom: 5px;
   border-bottom-right-radius: 1em;
   border-bottom-left-radius: 1em;
-  width: 176px;
+  position: relative;
+  width: 96%;
+  margin-top: -15px;
 
 }
 
@@ -258,7 +257,7 @@ form button {
 	background-color: #2D2D2D;
 	color: white;
 	margin-top: 8px;
-	
+
   }
 
  /* contact form */
@@ -337,4 +336,3 @@ form button {
  padding-left: 4px;
 
 }
-
