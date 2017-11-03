@@ -265,9 +265,19 @@ form button {
 .contactform {
 
 	margin-left: 20px;
-	width: 350px;
+	width: 500px;
   padding-top: 25px;
 
+}
+
+.contactform input {
+  width: 500px;
+  padding-left: 5px;
+}
+
+.contactform textarea {
+  width: 504px;
+  padding-left: 5px;
 }
 
 .contactform h2 {
