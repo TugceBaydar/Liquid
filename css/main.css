@@ -345,3 +345,10 @@ form button {
  padding-left: 4px;
 
 }
+
+@media (max-width: 642px) {
+  section > h1,
+   section > p {
+    display: none;
+  }
+}
